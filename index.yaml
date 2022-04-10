@@ -20,6 +20,25 @@ entries:
   postgres-pgdump-backup:
   - apiVersion: v2
     appVersion: v0.0.0
+    created: "2022-04-10T18:54:45.128028674+02:00"
+    description: Backup postgres databases using pg_dump, retention and schedules
+    digest: 57b9c302fe6c06a7d1013126d34385794d72f405e9f8f7e2db9a1865e54553e1
+    home: https://github.com/prodrigestivill/docker-postgres-backup-local
+    keywords:
+    - postgres
+    - backup
+    - retention
+    - pg_dump
+    name: postgres-pgdump-backup
+    sources:
+    - https://github.com/EugenMayer/helm-charts/chats/postgres-pgdump-backup
+    - https://github.com/prodrigestivill/docker-postgres-backup-local
+    type: application
+    urls:
+    - https://github.com/EugenMayer/helm-charts/releases/download/postgres-pgdump-backup-0.4.0/postgres-pgdump-backup-0.4.0.tgz
+    version: 0.4.0
+  - apiVersion: v2
+    appVersion: v0.0.0
     created: "2022-04-10T16:27:09.63039144+02:00"
     description: Backup postgres databases using pg_dump, retention and schedules
     digest: 50bdab61fd9be583754ebf08de2791efd9b7710d22f88808087ce73c572d3aa0
@@ -56,4 +75,4 @@ entries:
     urls:
     - https://github.com/EugenMayer/helm-charts/releases/download/rundeck-0.9.4/rundeck-0.9.4.tgz
     version: 0.9.4
-generated: "2022-04-10T16:27:09.836746756+02:00"
+generated: "2022-04-10T18:54:45.293523231+02:00"
